@@ -19,7 +19,3 @@ h1:hover{
     color:blue;
     cursor:pointer;
 }
-
-.author, .date{
-    font-style:italic;
-}
