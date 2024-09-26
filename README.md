@@ -1,0 +1,1 @@
+Hi! I am doing a horizontal scroll for my manuscript, so my HTML and CSS might look different from everyone else's. I've kept my original index.html here from the previous week but I'm building out a new one in conjunction with my CSS... this way of working makes the most sense to me but if it is not allowed kindly let me know. Thank you!
