@@ -1,0 +1,473 @@
+ /* body{
+  background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+} */
+
+/* h1{
+    color:red;
+}
+
+h1:hover{
+    color:blue;
+    cursor:pointer;
+} */
+
+/* ORIGINAL CODE */
+
+body {
+    background: #fcf4e6;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    font-family: "Familjen Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+    /* transform: rotate(deg) translateY(-100vh);
+    transform-origin: top left; 
+    display:flex;
+    flex-direction: row;  */
+	scroll-behavior: smooth;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 600vw;
+}
+    /* position:relative;
+    max-height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    transform: rotate(90deg) translateX(100vh);
+    transform-origin: top left; 
+
+}
+
+  .outer-wrapper {
+    width: 100vh;  
+    height: 100vw; 
+    transform: rotate(-90deg) translateX(-100vh); 
+    transform-origin: top right; 
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+} 
+
+::webkit-scrollbar{
+    display: none;
+} 
+
+
+/* TITLE SLIDE */
+.title {
+    background: #fcf4e6;
+}
+
+h2 {
+    position:fixed;
+    font-size: 100px;
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 31,
+      "SCAN" -32;
+}
+
+#top-title {
+    position: absolute; 
+    transform: rotate(-15deg); 
+    left: -100px;
+    top: -120px; 
+    display: inline-block; 
+    white-space: nowrap;
+    margin: 0; 
+}
+
+.line {
+    display: inline-block; 
+    width: 100%;
+    line-height: 1.1; 
+}
+
+.title h1 {
+    line-height: 1;
+    font-family: "Workbench", sans-serif;
+    font-size: 120px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "BLED" 0, "SCAN" 20;
+    transform: rotate(-15deg); 
+    position: absolute;
+    display: block;
+    padding: 0; 
+    left: 200px;
+    top: 50px;
+}
+
+#bottom-title {
+    position: absolute;
+    transform: rotate(-15deg); 
+    display: inline-block; 
+    margin: 0;
+    left: -100px;
+    top: 650px;
+}
+
+h3{
+    font-size: 30px;
+    transform: rotate(-15deg);
+    position:relative;
+    display: inline-block;
+    left: 950px;
+    top: 400px;
+    text-align: right;
+}
+
+time{
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    transform: rotate(75deg);
+    top: 180px;
+    left: -340px;
+}
+
+address {
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    transform: rotate(-15deg);
+    top: -120px;
+    left: 450px;
+
+}
+
+
+/* INTRODUCTION */
+.intro {
+    margin: 5px;
+    font-size: 18px;
+	column-count: 2;
+	column-gap: 50px;
+}
+
+#intro-title{
+    padding: 5px;
+    line-height: 1;
+    font-family: "Workbench", sans-serif;
+    font-size: 50px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "BLED" 0, "SCAN" 20;
+    position: relative;
+    display: inline-block;
+    top: -15px;
+}
+
+.intro p:nth-child(2){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 340px;
+    top: -140px;
+}
+
+.intro p:nth-child(3){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 340px;
+    top: -140px;
+}
+
+.intro p:nth-child(4){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 340px;
+    top: -140px;
+}
+
+.intro p:nth-child(5){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 340px;
+    top: -140px;
+}
+
+.intro p:nth-child(6){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 880px;
+    top: -770px; */
+}
+
+.intro p:nth-child(7){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 880px;
+    top: -770px; */
+}
+
+
+/* 10 PRINCIPLES */
+/* will fix later */
+.principles {
+    background: black;
+    color: white;
+}
+
+h1, p{
+    padding: 50px;
+}
+
+
+/* MODERNISM'S ODE TO WHITE SUPREMAXY */
+.modernism{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#modernism-title{
+    padding: 5px;
+    line-height: 1;
+    font-family: "Workbench", sans-serif;
+    font-size: 80px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "BLED" 0, "SCAN" 20;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+}
+
+.modernism p {
+    position: absolute;
+    padding: 5px;
+    width: 30%; 
+}
+
+.modernism p:nth-child(2){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(3){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(4){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(5){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 650px;
+    top: -634px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(6){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 650px;
+    top: -634px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(7){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 650px;
+    top: -634px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(8){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 1200px;
+    top: -1145px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(9){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 1200px;
+    top: -1145px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(10){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 1200px;
+    top: -1145px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(11){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 1750px;
+    top: -1679px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(12){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 1750px;
+    top: -1679px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(13){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 2300px;
+    top: -2185px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(14){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 2300px;
+    top: -2185px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(15){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 2300px;
+    top: -2185px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(16){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 2300px;
+    top: -2185px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(17){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 2850px;
+    top: -2728px; */
+	left: 100px;
+    top: -100px;
+}
+
+.modernism p:nth-child(18){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    /* left: 2850px;
+    top: -2728px; */
+	left: 100px;
+    top: -100px;
+}
+
+
+/* MODERNISM QUOTE */
+.modernism-quote{
+    background: black;
+    color: #fcf4e6;
+    left: 2000px;
+    font-size: 30px;
+    position:relative;
+}
+
+#modernquote {
+    margin: 50px;
+    width: 600px;
+    position:relative;
+    top: 350px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
