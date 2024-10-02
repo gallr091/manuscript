@@ -2,16 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Workbench:SCAN@20&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
 
-* {
-    box-sizing: border-box; /* Apply box-sizing to all elements */
-}
-
-::selection {
-    color: #fcf4e6;
-    background-color: black;
-  }
-
-
 html {
 	scroll-snap-type: x mandatory;
 }
@@ -20,69 +10,73 @@ body {
     background: #fcf4e6;
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
     font-family: "Familjen Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    overflow-y: hidden;
     height: 100vh;
     overflow-x: scroll;
-    /* overflow-y: hidden; */
+	display: flex;
+}
+
+
+.slide {
+    height: 100vh;
+    min-width: 100vw; 
+    overflow-y: hidden;
+    overflow-x: visible;
+	scroll-snap-align: start;
+	flex-basis: 90vw;
+	flex-shrink: 0;
+	height: 100vh;
+	position: relative;
+	overflow-y: auto;
+	padding: 24px;
 }
 
 .wrapper {
     display: flex; /*slides in a row */
     flex-direction: row;
     overflow-x: auto; /*horizontal scrolling */
-    /* scroll-behavior: smooth; */
+    /* scroll-behavior: smooth;  */
     /* width: 1000vw; */
-    height: 100vh;
-    overflow-y: hidden;
+}
+    /* position:relative;
+    max-height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    transform: rotate(90deg) translateX(100vh);
+    transform-origin: top left; 
+
 }
 
-.slide {
-    height: 100vh;
-    /* min-width: 100vw; slide is 100% of the viewport width */
-    /* overflow-y: hidden; */
-    /* overflow-x: visible; */
-    scroll-snap-align: start;
-	flex-basis: 95vw;
-	flex-shrink: 0;
-	position: relative;
-	overflow-y: auto;
-	/* padding: 1rem;  */
-    overflow-x: hidden; 
-    margin-bottom: 0;
-}
+  .outer-wrapper {
+    width: 100vh;  
+    height: 100vw; 
+    transform: rotate(-90deg) translateX(-100vh); 
+    transform-origin: top right; 
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+} 
+
+::webkit-scrollbar{
+    display: none;
+} 
+
 
 /* TITLE SLIDE */
-/* 
-h1, h2, h3 {
-    margin: 0; 
-} */
 
-/* .slide.title{
-    width:100vw;
+.title {
     background: #fcf4e6;
-    min-height:100vh;
-    
-} */
-
-.slide.title {
-    width: 100vw; 
-    padding: 0; 
-    margin: 0;
-    height: auto; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    min-height: 0;
-    /* overflow: hidden; */
-    overflow-y: scroll;
 }
 
-
 h2 {
-    /* position:fixed; */
+    position:fixed;
     font-size: 6rem;
     font-family: "Workbench", sans-serif;
     font-optical-sizing: auto;
@@ -97,25 +91,26 @@ h2 {
     position: relative; 
     transform: rotate(-15deg); 
     left: -10rem;
-    top: -12rem; 
+    top: -15rem; 
     /* display: inline-block;  */
     white-space: nowrap;
     margin: 0;
 }
 
 .line {
+    /* display: inline-block;  */
     width: 100%;
     line-height: 1.1; 
 }
 
-/* h1 {
+h1 {
     position: fixed;
     left: 0px;
     top: 0px;
-} */
+}
 
 .title h1 {
-    line-height: 0;
+    line-height: 1;
     font-family: "Workbench", sans-serif;
     font-size: 7.5rem;
     font-optical-sizing: auto;
@@ -124,77 +119,158 @@ h2 {
     font-variation-settings: "BLED" 0, "SCAN" 20;
     transform: rotate(-15deg); 
     position: relative;
-    /* display: block; */
+    display: block;
     padding: 0; 
     left: 10rem;
-    top: -22rem;
+    top: -25rem;
 }
 
 #bottom-title {
     position: relative;
     transform: rotate(-15deg); 
+    /* display: inline-block;  */
     margin: 0;
     left: -5rem;
-    top: -22rem;
+    top: -25rem;
 	white-space: nowrap;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 30px;
     transform: rotate(-15deg);
-    position: relative; 
-    display: block;
-    left: -8rem;
-    top: -43rem;
+    position:relative;
+    display: inline-block;
+    left: 10rem;
+    top: -42rem;
     text-align: right;
-    white-space: nowrap;
-    padding: 1rem; 
 }
 
-time {
-    display: block;
-    position: relative; 
-    font-size: 1.75rem;
+time{
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
     transform: rotate(75deg);
-    top: -38rem;
-    left: -26rem;
-    font-style: italic;
+    top: -55rem;
+    left: -73rem;
 }
 
 address {
-    display: block;
-    position: relative; 
-    font-size: 1.75rem;
-    transform: rotate(-15deg);
-    top: -100rem;
-    left: 40rem;
-}
-
-.introduction {
+    display: inline-block;
     position: relative;
-    top: -40rem;
-    margin-left: 12rem;
-    font-size: 1.5rem;
-    /* padding: 2rem; */
-    width: 55rem;
-    left: 10rem;
-    line-height: 1.4;
+    font-size: 24px;
+    transform: rotate(-15deg);
+    top: -73rem;
+    left: -25rem;
+
 }
 
+.slide.title{
+    width:100vw;
+}
+/* .title {
+    background: #fcf4e6;
+}
+
+h1{
+    position:absolute;
+} */
+
+/* h2 {
+    position: absolute; */
+    /* position: relative; */
+    /* font-size: 100px;
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 31,
+      "SCAN" -32;
+} */
+
+/* #top-title { */
+    /* position: absolute;  */
+    /* position: relative;
+    transform: rotate(-15deg); 
+    left: -100px;
+    top: -120px; 
+    display: inline-block; 
+    white-space: nowrap;
+    margin: 0; 
+} */
+/* 
+.line {
+    display: inline-block; 
+    width: 100%;
+    line-height: 1.1; 
+} */
 
 
+/* .title h1 {
+    line-height: 1;
+    font-family: "Workbench", sans-serif;
+    font-size: 120px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "BLED" 0, "SCAN" 20;
+    transform: rotate(-15deg);  */
+    /* position: absolute; */
+    /* position:relative;
+    display: inline-block;
+    padding: 0; 
+    top: -280px;
+    left: 200px;
+    white-space: nowrap;
+} */
 
- /* .intro p:nth-child(2), .intro p:nth-child(3), .intro p:nth-child(4), .intro p:nth-child(5), .intro p:nth-child(6), .intro p:nth-child(7){
+/* #bottom-title { */
+    /* position: absolute; */
+    /* position: relative;
+    transform: rotate(-15deg); 
+    display: inline-block; 
+    margin: 0;
+    left: 100px;
+    top: 0px;
+} */
+
+/* h3{
+    font-size: 30px;
+    transform: rotate(-15deg);
     position:relative;
-    left: 2px;
-    top: -140px;
- }
-    */
+    display: inline-block;
+    left: 950px;
+    top: 400px;
+    text-align: right;
+} */
+
+/* time{
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    transform: rotate(75deg);
+    top: 180px;
+    left: -340px;
+} */
+
+/* address {
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    transform: rotate(-15deg);
+    top: -120px;
+    left: 450px;
+
+} */
 
 
 /* INTRODUCTION */
+.intro {
+    margin: 5px;
+    font-size: 18px;
+}
 
-/* #intro-title{
+#intro-title{
     padding: 5px;
     line-height: 1;
     font-family: "Workbench", sans-serif;
@@ -206,8 +282,55 @@ address {
     position: relative;
     display: inline-block;
     top: -15px;
-} */
+}
 
+.intro p:nth-child(2){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 340px;
+    top: -140px;
+}
+
+.intro p:nth-child(3){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 340px;
+    top: -140px;
+}
+
+.intro p:nth-child(4){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 340px;
+    top: -140px;
+}
+
+.intro p:nth-child(5){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 340px;
+    top: -140px;
+}
+
+.intro p:nth-child(6){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 880px;
+    top: -770px;
+}
+
+.intro p:nth-child(7){
+    position:relative;
+    padding: 5px;
+    width: 500px;
+    left: 880px;
+    top: -770px;
+}
 
 
 /* 10 PRINCIPLES */
@@ -236,7 +359,7 @@ h1, p{
     font-size: 18px;
     overflow-x: auto; 
     height: 100%;
-    /* min-width: 100%; */
+    min-width: 100%;
     overflow: visible;
 }
 
@@ -932,3 +1055,5 @@ h1, p{
 
 
 
+
+  
