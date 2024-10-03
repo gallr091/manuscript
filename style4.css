@@ -39,7 +39,7 @@ body {
 .slide {
     height: 100vh;
     scroll-snap-align: start;
-    flex-basis: 90vw;
+    flex-basis: 95vw;
     flex-shrink: 0;
     position: relative;
     overflow-y: auto;
@@ -620,6 +620,7 @@ h4{
     z-index: 10; 
     margin-top: 0;
     align-self: flex-end;
+    margin-left: 2rem;
 }
 
 .flatdesign {
@@ -637,16 +638,16 @@ h4{
     margin-bottom: 50px;
 }
 
-#youtubelink:link {
+#link:link {
 	color: black;
 }
 
 
-#youtubelink:visited{
+#link:visited{
 	color: black;
 }
 
-#youtubelink:hover {
+#link:hover {
 	opacity: 50%;
 }
   
@@ -764,38 +765,6 @@ h4{
 }
 
 /* CONCLUSION */
-.flat-quote {
-    background: black;
-    color: #fcf4e6;
-    font-size: 1.5rem;
-    position: relative;
-    overflow: hidden;
-}
-
-#flatquote {
-    margin: 3rem;
-    width: 40vw;
-    position: relative;
-    top: 62vh;
-    text-align: right;
-    float: right;
-} 
-
-#messy-flat-quote {
-    font-family: "Workbench", sans-serif; 
-    font-size: 1.8rem;
-    font-variation-settings: "BLED" 31, "SCAN" -32;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    width: 40%;
-    text-align: justify;
-    position: relative;
-    bottom: 10rem;
-    left: 2rem;
-}
-
-/* CONCLUSION */
 .slide.conclusion {
     width: 100vw; 
     padding: 0; 
@@ -845,17 +814,24 @@ h4{
 
 .conclusion p{
     margin-bottom: 50px;
+    width: 90%;
 }
 
 aside {
+    display: block;
     position: sticky; 
-    top: 0; 
-    width: 35%; 
+    top: 1rem; 
+    width: 40%; 
     font-size: 1rem;
     font-style: italic;
     margin-left: 2rem; 
     padding-top: 2rem; 
     left: 65rem;
+}
+
+aside cite {
+    display: block;  
+    margin-bottom: 1rem; 
 }
 
 .dropbtn5 {
@@ -918,3 +894,13 @@ aside {
 #conclusion-title:hover {
     pointer-events: none; 
 } 
+
+/* REFLECTION */
+.slide.reflection{
+    background: black;
+    color: #fcf4e6;
+    font-size: 1.5rem;
+    position:relative;
+}
+
+
