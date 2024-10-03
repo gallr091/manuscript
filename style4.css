@@ -39,7 +39,7 @@ body {
 .slide {
     height: 100vh;
     scroll-snap-align: start;
-    flex-basis: 95vw;
+    flex-basis: 90vw;
     flex-shrink: 0;
     position: relative;
     overflow-y: auto;
