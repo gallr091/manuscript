@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
-    box-sizing: border-box; /* Apply box-sizing to all elements */
+    box-sizing: border-box; 
 }
 
 html {
@@ -39,7 +39,7 @@ body {
 .slide {
     height: 100vh;
     scroll-snap-align: start;
-    flex-basis: 90vw;
+    flex-basis: 95vw;
     flex-shrink: 0;
     position: relative;
     overflow-y: auto;
@@ -901,6 +901,46 @@ aside cite {
     color: #fcf4e6;
     font-size: 1.5rem;
     position:relative;
+    overflow-x: hidden;
 }
+
+#top-reflection-title {
+    display: block;
+    font-size: 8rem;
+    transform: rotate(15deg);
+    position: relative;
+    left: 50rem;
+
+}
+
+#reflection-title {
+    display: block;
+    width: 60%; 
+    padding: 2rem;
+    font-family: "Workbench", sans-serif;
+    font-variation-settings: "BLED" 0, "SCAN" 20;
+    font-size: 8rem;
+    font-weight: 400;
+    margin: 0; 
+    position: relative;
+    transform: rotate(15deg);
+    left: 35rem;
+    bottom: 12rem;
+} 
+
+.reflection {
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    padding-left: 3rem;
+    width: 60%;
+    padding-top: 5rem;
+}
+
+.reflection p{
+    margin-bottom: 50px;
+    width: 90%;
+}  
+
 
 
