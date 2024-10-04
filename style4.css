@@ -376,7 +376,7 @@ ul{
 
 @media (min-width: 1680px) {
     ul {
-        bottom: 25rem;  
+        bottom: 30rem;  
     }
 } 
 
@@ -478,7 +478,7 @@ h4{
 
 @media (min-width: 1680px) {
     #modernism-title {
-        margin-right: 2rem;
+        padding-right: 2rem;
         width: 40%;   
     }
 } 
@@ -500,7 +500,7 @@ h4{
 
 @media (min-width: 1680px) {
     #modernismsode{
-        left: 30rem;   
+        margin-left: 30rem;   
     }
 } 
 
@@ -552,7 +552,7 @@ h4{
 
 @media (min-width: 1680px) {
     .dropdown3{
-        bottom: 10rem;   
+        bottom: 20rem;   
     }
 } 
 
@@ -630,7 +630,7 @@ h4{
 
 @media (min-width: 1680px) {
     #messy-modern-quote {
-        bottom: 0;   
+        bottom: 10rem;   
         left: 60rem;
         font-size: 2rem;
     }
@@ -892,7 +892,7 @@ aside cite {
 }
 
 @media (min-width: 1680px) {
-    #aside {
+    aside {
         left: 100rem;   
     }
 } 
