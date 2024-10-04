@@ -476,12 +476,6 @@ h4{
     margin-top: 0;
 }
 
-@media (min-width: 1680px) {
-    #modernism-title {
-        padding-right: 2rem;
-        width: 40%;   
-    }
-} 
 
 .modernismsode {
     position: relative;
@@ -499,10 +493,15 @@ h4{
 }
 
 @media (min-width: 1680px) {
-    #modernismsode{
-        margin-left: 30rem;   
+    #modernism-title {
+        padding-right: 2rem;
+        width: 40%;   
+    }
+     .modernismsode {
+        left: 30rem;
     }
 } 
+
 
 
 
@@ -627,6 +626,7 @@ h4{
     bottom: 25rem;
     left: 50rem;
 }
+
 
 @media (min-width: 1680px) {
     #messy-modern-quote {
@@ -893,7 +893,7 @@ aside cite {
 
 @media (min-width: 1680px) {
     aside {
-        left: 100rem;   
+        left: 90rem;   
     }
 } 
 
