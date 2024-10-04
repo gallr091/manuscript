@@ -643,7 +643,7 @@ h4{
     text-align: justify;
     position: relative;
     bottom: 25rem;
-    left: 50rem;
+    left: 48rem;
 }
 
 /*---quote: modernism slide: media queries---*/
@@ -1018,6 +1018,11 @@ aside cite {
     position:relative;
     overflow-x: hidden;
 }
+
+.slide.reflection::selection {
+    background-color: #fcf4e6 !important;
+    color: black !important;
+  }
 
 /*---reflection slide: header---*/
 #responsetitle {

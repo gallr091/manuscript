@@ -130,10 +130,10 @@ body {
 /*---title slide: header---*/
 header{
     top: -4rem;
-	position:relative;
-	/*bottom: 3rem; */
+	position: relative;
     height: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 20rem;
+    top: 0;
 }
 
 h1, h2, h3, address, time {
@@ -198,9 +198,9 @@ h2 {
 h3 {
     font-size: 2rem;
     transform: rotate(-15deg);
-    position: absolute; 
-    left: 58rem;
-    top: 29rem;
+    position: relative; 
+    left: -10vw;
+    top: -50vh;
     text-align: right;
     white-space: nowrap;
 }
@@ -210,8 +210,8 @@ time {
     position: relative; 
     font-size: 1.75rem;
     transform: rotate(75deg);
-    left: -26rem;
-	bottom: 0rem;
+    left: -30vw;
+	bottom: 30vh;
     font-style: italic;
 }
 
@@ -220,8 +220,8 @@ address {
     position: relative; 
     font-size: 1.75rem;
     transform: rotate(-15deg);
-    left: 50rem;
-	top: -65rem;
+    left: 53vw;
+	top: -175vh;
 }
 
 /*---title slide: back to top---*/
@@ -273,7 +273,7 @@ address {
         top: 32rem;   
     }
     time {
-        position: absolute;
+        /* position: absolute; */
         left: 1rem; 
         bottom: 28rem;   
     }
@@ -643,7 +643,7 @@ h4{
     text-align: justify;
     position: relative;
     bottom: 25rem;
-    left: 50rem;
+    left: 48rem;
 }
 
 /*---quote: modernism slide: media queries---*/
@@ -1018,6 +1018,11 @@ aside cite {
     position:relative;
     overflow-x: hidden;
 }
+
+.slide.reflection::selection {
+    background-color: #fcf4e6 !important;
+    color: black !important;
+  }
 
 /*---reflection slide: header---*/
 #responsetitle {
