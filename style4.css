@@ -209,7 +209,7 @@ time {
     position: absolute; 
     font-size: 1.75rem;
     transform: rotate(75deg);
-    left: 1rem;
+    left: 2rem;
 	bottom: 15rem;
     font-style: italic;
 }
@@ -219,8 +219,8 @@ address {
     position: relative; 
     font-size: 1.75rem;
     transform: rotate(-15deg);
-    left: 48rem;
-	bottom: 77rem;
+    left: 50rem;
+	top: -65rem;
 }
 
 #back-to-top1 {
