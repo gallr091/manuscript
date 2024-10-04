@@ -213,11 +213,11 @@ h3 {
 
 time {
     display: block;
-    position: absolute; 
+    position: relative; 
     font-size: 1.75rem;
     transform: rotate(75deg);
-    left: 1.5rem;
-	bottom: 17rem;
+    left: -26rem;
+	bottom: 0rem;
     font-style: italic;
 }
 
@@ -366,7 +366,7 @@ address {
     padding-right: 2rem;
     text-align: right;
     /* top: 24rem; */
-    bottom: 10;
+    bottom: 15;
     right: 10;
 }
 
@@ -598,11 +598,10 @@ h4{
         width: 40%;   
     }
      .modernismsode {
-        left: 40rem;
-
+        left: 35rem;
+     }
     .dropdown3 {
         bottom: 18rem;   
-    }
     } 
 }
 
@@ -641,11 +640,13 @@ h4{
 
 @media (min-width: 1680px) {
     #modern-quote {
-        top: 70vh;
+        position: absolute;
+        /* top: 70vh; */
+        bottom: 5;
     }
 
     #messy-modern-quote {
-        bottom: 10rem;   
+        bottom: 5rem;   
         left: 60rem;
         font-size: 2rem;
     }
@@ -830,11 +831,12 @@ h4{
 
 @media (min-width: 1680px) {
     #flatquote{
-        bottom:0;
+        position: absolute;
+        bottom:5;
     }
 
     #messy-flat-quote {
-        bottom: 0;
+        bottom: 5;
         font-size: 2rem;
     }
 } 
@@ -1036,11 +1038,11 @@ aside cite {
     #responsetitle {
         top: 8rem;   
     }
-    #reflection-title {
-        bottom: 7.5rem;
-    }
+    /* #reflection-title {
+        bottom: 8rem;
+    } */
     #me {
-        top: -25rem;
+        top: -30rem;
     }
 } 
 
