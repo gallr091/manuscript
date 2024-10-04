@@ -204,10 +204,10 @@ h3 {
     white-space: nowrap;
 }
 
- @media (min-width: 1920px) {
+ @media (min-width: 1600px) {
     h3 {
         left: 60rem; 
-        top: 30rem;   
+        top: 32rem;   
     }
 } 
 
@@ -216,10 +216,17 @@ time {
     position: absolute; 
     font-size: 1.75rem;
     transform: rotate(75deg);
-    left: 2rem;
-	bottom: 15rem;
+    left: 1.5rem;
+	bottom: 17rem;
     font-style: italic;
 }
+
+@media (min-width: 1600px) {
+    time {
+        left: 1rem; 
+        bottom: 30rem;   
+    }
+} 
 
 address {
     display: block;
