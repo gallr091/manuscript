@@ -204,7 +204,7 @@ h3 {
     white-space: nowrap;
 }
 
- @media (min-width: 1600px) {
+ @media (min-width: 1920px) {
     h3 {
         left: 60rem; 
         top: 32rem;   
@@ -221,7 +221,7 @@ time {
     font-style: italic;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1920px) {
     time {
         left: 1rem; 
         bottom: 30rem;   
