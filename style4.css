@@ -492,18 +492,6 @@ h4{
 	margin-bottom: 50px;
 }
 
-@media (min-width: 1680px) {
-    #modernism-title {
-        padding-right: 2rem;
-        width: 40%;   
-    }
-     .modernismsode {
-        left: 30rem;
-    }
-} 
-
-
-
 
 #back-to-top2 {
     position: sticky;
@@ -549,12 +537,6 @@ h4{
     bottom: 19rem;
 }
 
-@media (min-width: 1680px) {
-    .dropdown3{
-        bottom: 20rem;   
-    }
-} 
-
 .dropdown-content3 {
     display: none; 
     position: absolute; 
@@ -595,6 +577,21 @@ h4{
     -webkit-text-stroke: 1px black;
     cursor: pointer; 
 }
+
+@media (min-width: 1680px) {
+    #modernism-title {
+        padding-right: 2rem;
+        width: 40%;   
+    }
+     .modernismsode {
+        left: 50rem;
+
+    .dropdown3 {
+        bottom: 18rem;   
+    }
+    } 
+}
+
 
 
 /* MODERNISM QUOTE */
