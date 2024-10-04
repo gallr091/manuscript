@@ -277,6 +277,10 @@ address {
         left: 1rem; 
         bottom: 28rem;   
     }
+
+    .introduction {
+        left: 20rem;
+    }
 } 
 
 

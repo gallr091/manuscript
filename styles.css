@@ -269,13 +269,20 @@ address {
 /*---title slide: media queries---*/
 @media (min-width: 1680px) {
     h3 {
+        padding-top: 2rem;
         left: 60rem; 
         top: 32rem;   
     }
+    
     time {
         position: absolute;
         left: 1rem; 
         bottom: 28rem;   
+        margin-left: 2rem;
+    }
+
+    address {
+        margin-bottom: 2rem;
     }
 } 
 
