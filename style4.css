@@ -646,7 +646,7 @@ h4{
     }
 
     #messy-modern-quote {
-        bottom: 5rem;   
+        bottom: 10rem;   
         left: 60rem;
         font-size: 2rem;
     }
@@ -833,6 +833,7 @@ h4{
     #flatquote{
         position: absolute;
         bottom:5;
+        float: right;
     }
 
     #messy-flat-quote {
@@ -1038,9 +1039,9 @@ aside cite {
     #responsetitle {
         top: 8rem;   
     }
-    /* #reflection-title {
-        bottom: 8rem;
-    } */
+     #reflection-title {
+        bottom: 8.5rem;
+    } 
     #me {
         top: -30rem;
     }
