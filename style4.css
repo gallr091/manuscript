@@ -593,7 +593,7 @@ h4{
         width: 40%;   
     }
      .modernismsode {
-        left: 45rem;
+        left: 40rem;
 
     .dropdown3 {
         bottom: 18rem;   
@@ -635,6 +635,10 @@ h4{
 
 
 @media (min-width: 1680px) {
+    #modern-quote {
+        top: 70vh;
+    }
+
     #messy-modern-quote {
         bottom: 10rem;   
         left: 60rem;
@@ -820,6 +824,10 @@ h4{
 }
 
 @media (min-width: 1680px) {
+    #flatquote{
+        bottom:0;
+    }
+
     #messy-flat-quote {
         bottom: 0;
         font-size: 2rem;
@@ -1003,6 +1011,7 @@ aside cite {
     bottom: 8rem;
 } 
 
+
 #bottom-reflection-title {
     display: block;
     font-size: 8rem;
@@ -1018,6 +1027,18 @@ aside cite {
     left: 35rem;
 
 }
+
+@media (min-width: 1680px) {
+    #responsetitle {
+        top: 8rem;   
+    }
+    #reflection-title {
+        bottom: 7rem;
+    }
+    #me {
+        top: -23rem;
+    }
+} 
 
 .reflection {
     position: relative;
@@ -1062,7 +1083,6 @@ aside cite {
     display: none; 
     position: absolute; 
     background-color: #fcf4e6;
-    min-width: 160px; 
 	box-shadow: 
     0px          /* horizontal offset */
     8px          /* vertical offset */
@@ -1123,3 +1143,5 @@ aside cite {
 #back-to-top4:hover {
     opacity: 50%;
 }
+
+
