@@ -374,12 +374,6 @@ ul{
     bottom: 16rem;
 }
 
-@media (min-width: 1680px) {
-    ul {
-        bottom: 30rem;  
-    }
-} 
-
 .principle:hover {
     position: relative;
     cursor: pointer;
@@ -443,6 +437,21 @@ h4{
     font-size: 2rem;
     top: 19rem;
 }
+
+@media (min-width: 1680px) {
+    ul {
+        bottom: 30rem;  
+    }
+
+    h4 {
+        bottom: 0;
+    }
+
+    #ten-principles {
+        bottom: 0;
+        margin-bottom: 2rem;
+    }
+} 
 
 
 /* MODERNISM */
@@ -584,7 +593,7 @@ h4{
         width: 40%;   
     }
      .modernismsode {
-        left: 50rem;
+        left: 45rem;
 
     .dropdown3 {
         bottom: 18rem;   
@@ -852,7 +861,7 @@ h4{
 .conclusion-container {
     position: relative;
     width: 70%; 
-    height: 80vh; 
+    height: 60vh; 
     overflow-y: auto; 
     padding-top: 2rem;
     left: 0;
@@ -890,7 +899,7 @@ aside cite {
 
 @media (min-width: 1680px) {
     aside {
-        left: 90rem;   
+        left: 85rem;   
     }
 } 
 
@@ -964,6 +973,12 @@ aside cite {
     overflow-x: hidden;
 }
 
+#responsetitle {
+    position: relative;
+    top: 5rem;
+    margin-bottom:-10rem;
+}
+
 #top-reflection-title {
     display: block;
     font-size: 8rem;
@@ -997,6 +1012,13 @@ aside cite {
     bottom: 4rem;
 }
 
+#me {
+    transform: rotate(15deg);
+    top: -9rem;
+    left: 35rem;
+
+}
+
 .reflection {
     position: relative;
     font-size: 1.4rem;
@@ -1012,5 +1034,92 @@ aside cite {
     width: 90%;
 }  
 
+.dropbtn6 {
+    background-color: transparent;
+    color: #fcf4e6;
+    padding: 16px;
+    font-size: 1.5rem;
+    line-height: 1; 
+    position: relative; 
+    z-index: 10; 
+    float: right; 
+	position: sticky;
+	border: none;
+	background-color: none;
+	scale: 1.5;
+    position:relative;
+}
 
+.dropdown6 {
+    position: relative; 
+    float: left; 
+	margin-top: 0.5rem;
+	margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
 
+.dropdown-content6 {
+    display: none; 
+    position: absolute; 
+    background-color: #fcf4e6;
+    min-width: 160px; 
+	box-shadow: 
+    0px          /* horizontal offset */
+    8px          /* vertical offset */
+    16px         /* blur radius */
+    10px          /* spread radius */
+    rgba(0, 0, 0, 0.2); /* black with 20% opacity */
+    z-index: 20; 
+    top: 100%; 
+    left: 0; 
+	border-radius: 12px;
+    min-width: 300px;
+    font-size: 1rem;
+}
+
+.dropdown-content6 a {
+	color: black;
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block; 
+	border-radius: 10px;
+}
+
+.dropdown-content6 a:hover {
+    background-color: black;
+	color: #fcf4e6;
+	/* mix-blend-mode: multiply; */
+    opacity: 80%;
+}
+
+.dropdown6:hover .dropdown-content6 {
+    display: block; 
+}
+
+.dropdown6:hover .dropbtn6 {
+    color: black;
+	-webkit-text-stroke: 1px #fcf4e6;
+    cursor: pointer; 
+}
+
+#back-to-top4 {
+    position: sticky;
+    z-index: 100;
+    cursor: pointer;
+    padding-left: 0; 
+    padding-right: 2rem; 
+    bottom: 5vh;
+    left: 80vw;
+    text-align: right;
+    font-size: 1rem;
+    padding-top: 150vh;
+}
+
+#back-to-top4:link, #back-to-top4:visited {
+    color: #fcf4e6;
+    text-decoration: none;
+}
+
+#back-to-top4:hover {
+    opacity: 50%;
+}
