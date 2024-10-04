@@ -198,18 +198,18 @@ h3 {
     font-size: 2rem;
     transform: rotate(-15deg);
     position: absolute; 
-    left: 65vw;
-    top: 63vh;
+    left: 40rem;
+    top: 20rem;
     text-align: right;
     white-space: nowrap;
 }
 
-@media (min-width: 1440px) {
+ @media (min-width: 1920px) {
     h3 {
-        left: 75vw; 
-        top: 68vh;   
+        left: 60rem; 
+        top: 30rem;   
     }
-}
+} 
 
 time {
     display: block;

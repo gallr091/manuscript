@@ -6,3 +6,5 @@ container.addEventListener('wheel', (e)=> {
     container.scrollLeft += e.deltaY;
     // scrollLine.style.width = container.scrollLeft / 2 + 'px';
 })
+
+console.log(window.innerWidth);
