@@ -197,20 +197,20 @@ h2 {
 h3 {
     font-size: 2rem;
     transform: rotate(-15deg);
-    position: relative; 
-    left: -10rem;
-    top: -22rem;
+    position: absolute; 
+    left: 60rem;
+    top: 28rem;
     text-align: right;
     white-space: nowrap;
 }
 
 time {
     display: block;
-    position: relative; 
+    position: absolute; 
     font-size: 1.75rem;
     transform: rotate(75deg);
-    left: -26rem;
-	bottom: 12rem;
+    left: 1rem;
+	bottom: 15rem;
     font-style: italic;
 }
 
@@ -910,7 +910,7 @@ aside cite {
     transform: rotate(15deg);
     position: relative;
     left: 50rem;
-
+    top: 5rem;
 }
 
 #reflection-title {
@@ -925,8 +925,17 @@ aside cite {
     position: relative;
     transform: rotate(15deg);
     left: 35rem;
-    bottom: 12rem;
+    bottom: 8rem;
 } 
+
+#bottom-reflection-title {
+    display: block;
+    font-size: 8rem;
+    transform: rotate(15deg);
+    position: relative;
+    left: 50rem;
+    bottom: 4rem;
+}
 
 .reflection {
     position: relative;
@@ -934,7 +943,8 @@ aside cite {
     line-height: 1.4;
     padding-left: 3rem;
     width: 60%;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
+    /* padding-bottom: 10rem; */
 }
 
 .reflection p{
