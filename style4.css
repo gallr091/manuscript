@@ -289,6 +289,7 @@ address {
     flex-direction: column; 
     justify-content: flex-start; 
     overflow: hidden;
+    height: 100vh;
 }
 
 /* menu */
@@ -359,11 +360,14 @@ address {
 
 /* content */
 #ten-principles{
-    position: relative;
+    position: absolute;
+    /* position: relative; */
     font-size: 7rem;
     padding-right: 2rem;
     text-align: right;
-    top: 24rem;
+    /* top: 24rem; */
+    bottom: 10;
+    right: 10;
 }
 
 ul{
@@ -431,11 +435,12 @@ ul li:nth-of-type(10) .principle:hover::after {
 }
 
 h4{
-    position: relative;
+    position: absolute;
     font-style: italic;
     margin:2rem;
     font-size: 2rem;
-    top: 19rem;
+    bottom: 10;
+    left: 10;
 }
 
 @media (min-width: 1680px) {
@@ -443,14 +448,14 @@ h4{
         bottom: 30rem;  
     }
 
-    h4 {
+    /* h4 {
         bottom: 0;
-    }
+    } */
 
-    #ten-principles {
+    /* #ten-principles {
         bottom: 0;
         margin-bottom: 2rem;
-    }
+    } */
 } 
 
 
@@ -1023,9 +1028,8 @@ aside cite {
 
 #me {
     transform: rotate(15deg);
-    top: -9rem;
+    top: -18rem;
     left: 35rem;
-
 }
 
 @media (min-width: 1680px) {
@@ -1033,10 +1037,10 @@ aside cite {
         top: 8rem;   
     }
     #reflection-title {
-        bottom: 7rem;
+        bottom: 7.5rem;
     }
     #me {
-        top: -23rem;
+        top: -25rem;
     }
 } 
 
