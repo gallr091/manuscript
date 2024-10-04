@@ -204,7 +204,7 @@ h3 {
     white-space: nowrap;
 }
 
- @media (min-width: 1920px) {
+ @media (min-width: 1680px) {
     h3 {
         left: 60rem; 
         top: 32rem;   
@@ -221,7 +221,7 @@ time {
     font-style: italic;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1680px) {
     time {
         left: 1rem; 
         bottom: 28rem;   
@@ -374,6 +374,12 @@ ul{
     bottom: 16rem;
 }
 
+@media (min-width: 1680px) {
+    ul {
+        bottom: 20rem;  
+    }
+} 
+
 .principle:hover {
     position: relative;
     cursor: pointer;
@@ -469,6 +475,12 @@ h4{
     z-index: 10; 
     margin-top: 0;
 }
+
+@media (min-width: 1680px) {
+    #modernism-title {
+        margin-right: 2rem;   
+    }
+} 
 
 .modernismsode {
     position: relative;
@@ -601,6 +613,13 @@ h4{
     bottom: 25rem;
     left: 50rem;
 }
+
+@media (min-width: 1680px) {
+    #messy-modern-quote {
+        bottom: 0;   
+    }
+} 
+
 
 
 /* FLAT DESIGN */
@@ -778,6 +797,12 @@ h4{
     left: 2rem;
 }
 
+@media (min-width: 1680px) {
+    #messy-flat-quote {
+        bottom: 0;   
+    }
+} 
+
 /* CONCLUSION */
 .slide.conclusion {
     width: 100vw; 
@@ -847,6 +872,12 @@ aside cite {
     display: block;  
     margin-bottom: 1rem; 
 }
+
+@media (min-width: 1680px) {
+    #aside {
+        left: 80rem;   
+    }
+} 
 
 .dropbtn5 {
     background-color: transparent; 
